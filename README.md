@@ -1,6 +1,6 @@
 # password
 A php class to handle your password
-**Usage**
+# Usage
 It's very easy to use. See the example
 
 ```php
@@ -17,6 +17,7 @@ $pwd->hash();
 //it'll verify a password against a hash fetched from db or anywhere
 $pwd->verify($password,$hashedpassword);
 
+```
 **That's it. You're done**
 
 Thank you
